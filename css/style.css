@@ -1,0 +1,486 @@
+
+a{
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-image: url(../img/banner-background.png);
+    height: auto;
+    margin: 3px;
+}
+.header-r{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    font-family: 'source sans pro';
+}
+.header-contact{
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'source sans pro';
+}
+.header-contact1{
+    display: inline-block;
+    font-size: 12px;
+    padding: 20px;
+    padding-left: 100px;
+}
+.title{
+    font-size: 18px;
+    margin-top: 13px;
+}
+.icon{
+    width: 13px;
+    height: 15px;
+}
+.icon-s{
+    width: 15px;
+}
+.btn{
+    font-size: 12px;
+}
+.header1 a{
+    text-decoration: none;
+    color: black;
+}
+.header2{
+    padding-bottom: 10px;
+}
+.form-control{
+    padding: 6px 15px;
+    border-radius: none;
+}
+.input-group{
+    padding: 10px;
+}
+.input-group-text{
+    padding: 7px;
+}
+.logotip-s{
+    background-color: #0b4678;
+}
+.logotip{
+    display: flex;
+    background-color: #0b4678;
+    height: auto;
+}
+.logo{
+    width: 110px;
+    padding: 5px;
+}
+.title{
+    padding: 10px;
+    font-family: 'source sans pro';
+    font-weight: 400;
+}
+.input-group{
+    margin-bottom: 50px;
+}
+.dropdown-s{
+    background-color: #0a2b4b;
+}
+.dropdown{
+    min-height: 45px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.ul{
+    margin-bottom: 0rem;
+}
+/* отображаем выпадающий список при наведении */
+nav ul li:hover > ul {
+    display:inherit;
+    display: block;
+}
+
+/* первый уровень выпадающего списка */
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+ul.menu{
+    width: 1100px;
+    padding: 16px;
+}
+.punkt-menu{
+    text-decoration: none;
+    color: #ffff;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', normal;  
+    font-weight: 400;
+    font-style: clamp(0.875rem, 0.7144648829431438rem + 0.33444816053511706vw, 1rem);
+    line-height: clamp(0.875rem, 0.7144648829431438rem + 0.33444816053511706vw, 1rem);
+    letter-spacing: clamp(0rem, -0.0802675585284281rem + 0.16722408026755853vw, 0.0625rem);
+    padding-top: 16px ;
+}  
+.pod-punkt-menu{
+    text-decoration: none;
+    color: #ffff;
+    color: #0a2b4b;
+    font-family: 'Source Sans Pro', normal;  
+    font-size: clamp(0.75rem, -0.3728070175438596rem + 1.7543859649122806vw, 1.125rem);
+    line-height: clamp(0.5rem, -0.9223621103117503rem + 2.398081534772182vw, 1.125rem);
+    letter-spacing: 1px;
+    padding-bottom: 4px !important;
+    text-transform: none;
+    padding: 16px;
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+    
+}
+.pod-punkt1{
+    display: none;
+    left: 50px;
+    padding: 20px 20px 20px 0;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.546);
+    white-space: nowrap; 
+    z-index: 1;
+
+}
+.pod-punkt2{
+    display: none;
+    left: 180px;
+    padding: 20px 20px 20px 0;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.546);
+    white-space: nowrap;
+    z-index: 1;
+}
+.pod-punkt3{
+    display: none;
+    left: 320px;
+    padding: 20px 20px 20px 0;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.546);
+    white-space: nowrap;
+    z-index: 1;
+}
+.pod-punkt4{
+    display: none;
+    left: 550px;
+    padding: 20px 20px 20px 0;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.546);
+    white-space: nowrap;
+    z-index: 1;
+}
+.pod-punkt5{
+    display: none;
+    left: 700px;
+    padding: 20px 20px 20px 0;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.546);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.punkt:hover div.pod-punkt{
+    display: block;
+}
+
+
+
+.item_link{
+    color: white;
+    text-decoration: none;
+    margin-right: clamp(2.5rem, 1.2157190635451505rem + 2.6755852842809364vw, 3.5rem);
+}
+.item_link{
+    margin-right: clamp(2.5rem, 1.2157190635451505rem + 2.6755852842809364vw, 3.2rem);
+}
+.main{
+    background: linear-gradient(90deg, #062039 0.05%, rgba(88, 123, 157, 0.69) 98.86%), #777777;
+    height: 100%;
+}
+
+
+
+.left-main-slider{
+    margin-right: 50%;
+}
+
+
+.carousell {
+    width: 400px; /* Установите необходимую ширину и высоту для карусели */
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0; /* Скрыть все слайды по умолчанию */
+    animation: carousellAnimation 9s infinite; /* Задать продолжительность анимации и бесконечное повторение */
+  }
+  
+  .slider:nth-child(1) {
+    animation-delay: 0s; /* Задержка для первого слайда */
+  }
+  
+  .slider:nth-child(2) {
+    animation-delay: 3s; /* Задержка для второго слайда */
+  }
+  
+  .slider:nth-child(3) {
+    animation-delay: 6s; /* Задержка для третьего слайда */
+  }
+  
+  @keyframes carousellAnimation {
+    0% {
+      opacity: 0; /* Начальное состояние - слайд невидим */
+    }
+  
+    20% {
+      opacity: 1; /* Состояние через 20% анимации - слайд видим */
+    }
+  
+    33% {
+      opacity: 1; /* Состояние через 33% анимации - слайд остается видимым */
+    }
+  
+    53% {
+      opacity: 0; /* Состояние через 53% анимации - слайд снова становится невидимым */
+    }
+  
+    100% {
+      opacity: 0; /* Конечное состояние - слайд невидим */
+    }
+  }
+.news{
+    background-color: aliceblue;
+    height: 100%;
+}
+.news-s{
+    display: flex;
+    justify-content: space-between;
+}
+.news-left{
+    margin-bottom: 10px;
+}
+.new-novost1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-block {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-text{
+    text-decoration: none;
+}
+.name-small{
+    margin-bottom: 1rem!important;
+    margin-top: 30px;
+}
+.main-map{
+    height: 80%;
+    background-color: aliceblue;
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+}
+.map-right{
+    width: 80%;
+    padding-bottom: 50px;
+}
+.col{
+    text-align: center;
+}
+.name-text{
+    font-size: clamp(1.5625rem, 1.2313950554994955rem + 1.4127144298688195vw, 2.4375rem);
+    line-height: clamp(2rem, 1.3578595317725752rem + 1.3377926421404682vw, 2.5rem);
+    letter-spacing: 0.8px;
+    font-family: 'Arial', normal, sans-serif;
+    font-weight: 600;
+    color: #0a2b4b;
+    border-left: 11px solid;
+    padding-left: 10px;
+}
+.row-col{
+    height: 30%;
+    padding: 30px;
+    padding-top: 15px;
+    background-color: aliceblue;
+}
+
+
+.coll-1{
+    left: clamp(6.875rem, 0.2127926421404691rem + 13.879598662207357vw, 12.0625rem);
+    top: 0;
+    transform: rotate(180deg);
+    height: 100%;
+}
+.col-1{
+    display: flex;
+}
+.col-2{
+    display: flex;
+    align-items: center;
+}
+.col-2-text{
+    text-align: center;
+    margin-left: 150px;
+}
+.col-3{
+    display: flex;
+}
+.coll-3{
+    right: clamp(7.125rem, 0.30225752508361303rem + 14.214046822742473vw, 12.4375rem);
+    top: 0;
+    height: 100%;
+}
+.page{
+    background-color: aliceblue;
+    height: 50%;
+    padding-bottom: 100px;
+}
+.page-main{
+    display: flex;
+    justify-content: space-between;
+}
+.page-text{
+    text-decoration: none;
+    color: #0a2b4b;
+    margin-left: 25px;
+}
+.footer{
+    background-color: #083C6F;
+    height: 50%;
+}
+.carousel-main{
+    background-color: #083C6F;
+    height: 30%;
+}
+.carousel {
+    width: 1200px; /* Установите необходимую ширину и высоту для карусели */
+    height: 500px;
+    overflow: hidden;
+    white-space: nowrap; /* Предотвращает перенос строк */
+  }
+  
+  .slide {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease; /* Плавное переходное свойство */
+  }
+  
+  @keyframes carouselAnimation {
+    0% {
+      transform: translateX(0); /* Начальное состояние - слайды находятся в исходной позиции */
+    }
+  
+    33.33% {
+      transform: translateX(-100%); /* Состояние через 33.33% анимации - первый слайд перемещается влево */
+    }
+  
+    66.66% {
+      transform: translateX(-200%); /* Состояние через 66.66% анимации - первый и второй слайды перемещаются влево */
+    }
+  
+    100% {
+      transform: translateX(-200%); /* Конечное состояние - слайды остаются в итоговой позиции */
+    }
+  }
+  
+  .carousel:hover .slide {
+    animation: carouselAnimation 6s infinite; /* Анимация начинается при наведении на карусель */
+  }
+.icon-news{
+    width: 100px;
+}
+.row1 .card-body{
+    background-color: #083C6F;
+    color: white;
+}
+.row2 .card-body{
+    background-color: #083C6F;
+    color: white;
+}
+.row3 .card-body{
+    background-color: #083C6F;
+    color: white;
+}
+.text-row{
+    text-decoration: none;
+}
+.new-novost{
+    padding-bottom: 10px;
+}
+.new-class{
+    text-decoration: none;
+} 
+.new-1{
+    text-align: center;
+    color: black;
+}
+.razdely{
+    height: 300px;
+    background-color: aliceblue;
+}
+#checkMhiStatus {
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 75px;
+    height: 350px;
+}
+
+.button.is-info.is-outlined {
+    height: 36px;
+    padding-top: 4px;
+    margin-top: 8px;
+    margin-left: 65px;
+}
+.info-blokc {
+background: white;
+margin-top: 30px;
+padding: 20px;
+}
+
+.input is-info {
+    height: 80px;
+}
+
+#status-oms {
+    margin-bottom: 5px;
+    width: 300px;
+}
+    span{
+        color: #eb0808;
+        font-weight: bold;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
